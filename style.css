@@ -1,5 +1,7 @@
-body {
+    body {
     font-family: Arial, sans-serif;
+    width: 500px;
+    padding: 10px;
 }
 
 main {
@@ -11,3 +13,73 @@ footer {
     font-size: 0.8em;
     color: #666666;
 }
+
+input {
+    margin: 10px;
+    margin-left: 20px;
+    float: left;
+    float: none;
+    column-count: 35;
+}
+
+input[type="email"] {
+    margin-left: 52px;
+    float: left;
+    float: none;
+}
+
+input[type=lName] {
+    float: left;
+    float: none;
+}
+
+input[type=fName] {
+    float: left;
+    float: none;
+}
+
+input[type="submit"] {
+    margin-left: 0;
+}
+
+fieldset {
+    width: 350px;
+    border: 2px solid #999999;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+}
+
+label {
+    width: 120px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 37.5em) {
+    header {
+        padding-top: 1em;
+    }
+    main {
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    fieldset {
+        width: 70%;
+    }
+    textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+    input[type=text] {
+        width: 100%;
+        margin-left: 0;
+    }
+    input[type=email] {
+        width: 100%;
+        margin-left: 0;
+    }
